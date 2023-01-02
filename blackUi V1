@@ -1,9 +1,3 @@
--- BLACKTRAP V1.3 FIXED_BUILD --
--- REALEASE DATE ON 22/03/2022 --
--- MADE By WANZ --
--- DO NOT COPYRIGHT --
--- (WINDOWS AND MOBILE VERSION) --
-
 -- service --
 local Blacklib = {}
 local UserInputService = game:GetService("UserInputService")
@@ -155,7 +149,7 @@ function Blacklib:Window()
     Space2.Position = UDim2.new(0, 276, 0, 3)
     Space2.Size = UDim2.new(0, 10, 0, 25)
     Space2.Font = Enum.Font.GothamBold
-    Space2.Text = "|"
+    Space2.Text = " |"
     Space2.TextColor3 = Color3.fromRGB(150,150,150)
     Space2.TextSize = 18.000
     
