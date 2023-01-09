@@ -346,7 +346,7 @@ function Blacklib:Window()
     end)
     spawn(function()
         while task.wait() do
-            titlefunc:Refresh("") wait(.2) titlefunc:Refresh("N") wait(.2) titlefunc:Refresh("N0") wait(.2) titlefunc:Refresh("N0k") wait(.2) titlefunc:Refresh("N0ki") wait(.2) titlefunc:Refresh("N0kia") wait(.2) titlefunc:Refresh("N0ki") wait(.2) titlefunc:Refresh("N0k") wait(.2) titlefunc:Refresh("N0") wait(.2) titlefunc:Refresh("N") wait(.2) titlefunc:Refresh("") wait(.2) wait(.3)
+            titlefunc:Refresh("") wait(.2) titlefunc:Refresh("Source.Xyz") wait(.2) titlefunc:Refresh("") wait(.2) titlefunc:Refresh("Source.Xyz") wait(.2) titlefunc:Refresh("") wait(.2) titlefunc:Refresh("Source.Xyz") wait(.2) titlefunc:Refresh("N0ki") wait(.2) titlefunc:Refresh("N0k") wait(.2) titlefunc:Refresh("N0") wait(.2) titlefunc:Refresh("N") wait(.2) titlefunc:Refresh("") wait(.2) wait(.3)
         end
     end)
     -- End Windows --
